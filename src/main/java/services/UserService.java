@@ -13,7 +13,6 @@ public class UserService extends BaseService {
         .then()
         .log().all()
         .spec(responseSpecification())
-        .log().all()
         .extract()
         .as(ScoreModel.class);
   }
