@@ -10,7 +10,6 @@ import models.UserModel;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import services.UserService;
-
 import java.util.List;
 import java.util.Random;
 

@@ -3,7 +3,6 @@ package helpers;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import models.UserModel;
-
 import java.util.List;
 
 public class UserHelper {
