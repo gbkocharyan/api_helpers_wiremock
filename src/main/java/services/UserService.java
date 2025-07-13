@@ -3,7 +3,9 @@ package services;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import models.ScoreModel;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserService extends BaseService {
 
   public ScoreModel getUserScore(int userId) {
