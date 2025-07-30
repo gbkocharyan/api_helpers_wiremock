@@ -14,6 +14,7 @@ public abstract class BaseService {
         .basePath("/wiremock");
   }
 
+
   protected ResponseSpecification responseSpecification() {
     RestAssured.defaultParser = Parser.JSON;
     return RestAssured.given()
