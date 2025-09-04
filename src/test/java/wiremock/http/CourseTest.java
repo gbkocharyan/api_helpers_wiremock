@@ -1,6 +1,7 @@
 package wiremock.http;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
+
 import org.testng.annotations.Test;
 import wiremock.base.TestBase;
 
